@@ -1,0 +1,113 @@
+.profile_pic {
+  width: 170px;
+  width: 170px;
+  border-radius: 50%
+
+}
+
+.big_bold_green_header {
+  font-family: 'Bitter', serif;
+  font-weight: 700;
+  color: #347474;
+  font-size: 32px;
+  letter-spacing: 8px
+}
+
+/*body{
+  background-color: rgba(238, 133, 114,0.05);
+}*/
+
+body {
+  /* Location of the image */
+  background-image: url(images/lake_marian2.jpg);
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+
+
+.pink_button {
+  background-color: #ee8572 ;
+  padding: 13px;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+p {
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  font-size: 16px
+}
+
+h2 {
+  font-family: 'Muli';
+}
+
+.pink_button:hover{
+  background-color: #35495e
+}
+
+.card {
+    background-color: rgba(255,255,255,0.9);
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.icon {
+  font-size : 24px;
+  color: #35495e;
+}
+
+div{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.display_list_inline {
+  display: inline;
+  padding: 10px;
+  list-style: none
+}
+
+.remove_ul_padding {
+  padding: 0px
+}
+
+.icon:hover{
+  -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
+}
+
+.image_gallery:hover
+{
+  box-shadow:
+    1px 1px #35495e,
+    2px 2px #35495e,
+    3px 3px #35495e;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+
+
